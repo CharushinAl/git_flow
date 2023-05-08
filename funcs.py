@@ -4,6 +4,9 @@ class Funcs:
         self.a = a
         self.b = b
 
+    def __repr__(self):
+        return f'I am a class Funcs. Perform arithmetic operations with numbers a and b'
+
     def sum_sum(self):
         return self.a + self.b
 
